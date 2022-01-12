@@ -1,0 +1,18 @@
+{
+  "name": "unit-test-react",
+  "version": "1.0.0",
+  "description": "unit test",
+  "main": "index.js",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "umi-test --colors --coverage --detectOpenHandles"
+  },
+  "author": "youyuan",
+  "license": "ISC",
+  "dependencies": {
+    "@umijs/test": "^3.5.20",
+    "umi": "^3.5.20"
+  },
+  "devDependencies": {}
+}
